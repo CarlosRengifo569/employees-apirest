@@ -8,3 +8,6 @@ Download .jar file, open a command prompt, navigate until the ubication of this 
 (This server will run in port 8080)
 ## Test
 src/test contains the unit tests with JUnit and Mockito
+## Docker
+Download image using -> docker pull carlos569/postgres
+-> docker run --name test-postgres -d carlos569/postgres
